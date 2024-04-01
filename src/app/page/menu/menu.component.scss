@@ -1,0 +1,57 @@
+nav {
+    float: left;
+  }
+  
+  ul {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  li {
+    margin: 0;
+    padding: 10px;
+    background-color: lightgray;
+    border-bottom: 1px solid rgb(253, 48, 48);
+  }
+  li:last-child {
+    border-bottom: none;
+  }
+  
+  a {
+    display: block;
+    color: rgb(194, 47, 47);
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  a:hover {
+    background-color: #555;
+  }
+  
+  .contenido {
+    float: left;
+  }
+
+  p {
+    text-align: left;
+  }
+
+  #izquierda {
+    width: 25%;
+    float: left;
+    background-color: rgb(116, 112, 131);
+  }
+
+  
+  #derecha {
+
+    
+    max-width: 80%; /* Establece el ancho máximo del contenedor de texto */
+    margin-right: 20px; /* Añade un espacio a la derecha del contenedor */
+    text-align: left; /* Alinea el texto a la izquierda dentro del contenedor */
+    width: 75%;
+    float: 10;
+    background-color: lightgray;
+  }

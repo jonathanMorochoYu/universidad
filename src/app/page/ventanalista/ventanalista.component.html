@@ -1,0 +1,29 @@
+<p>Listado de Universidades</p>
+
+<span *ngIf="listadoUniversidad.length == 0">
+    No existen 
+</span>
+
+<ul>
+    <li *ngFor="let universidad of listadoUniversidad">
+        <a >{{universidad.nombre}} | {{universidad.ubicacion}} | {{universidad.tiempo}} | {{universidad.ncarrera}}</a>
+        <a href="" (click)="eliminar($event,universidad)">Eliminar</a>
+
+        
+        <ul>
+            <a href="" (click)="editar(universidad)">Editar</a>
+
+        </ul>
+
+        <ul>
+            <a (click)="goEditar(universidad)"> edi</a>
+            <button (click)="editUni(universidad)">Editarr</button> 
+
+
+
+            
+        </ul>
+
+    </li>
+    
+</ul>

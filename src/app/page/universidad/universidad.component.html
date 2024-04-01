@@ -1,0 +1,15 @@
+<label for="txtNombre">Nombre universidad</label>
+<input id="txtNombre" [(ngModel)]="universidad.nombre"/>
+<br/>
+<label for="txtHoras">numero de carrera:</label>
+<input id="txtHoras" [(ngModel)]="universidad.ncarrera"/>
+<br/>
+<label for="txtTiempo">Tiempo :</label>
+<input id="txtTiempo" [(ngModel)]="universidad.tiempo"/>
+<br/>
+<label for="txtubicacion">ubicacion:</label>
+<input id="txtubicacion" [(ngModel)]="universidad.ubicacion"/>
+<br/>
+<br/>
+
+<button (click)="guardar()">Guardar</button>
